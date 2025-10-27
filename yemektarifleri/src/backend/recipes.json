@@ -1,0 +1,224 @@
+[
+  {
+    "id": "1",
+    "name": "Köfte",
+    "category": "Ana Yemek",
+    "description": "Lezzetli ve nefis köfte tarifi.",
+    "ingredients": [
+      "500g kıyma",
+      "1 adet soğan",
+      "2 dilim bayat ekmek",
+      "1 yumurta",
+      "1 çay bardağı süt",
+      "Tuz, karabiber, kimyon"
+    ],
+    "instructions": [
+      "Ekmekleri sütle ıslatın ve ufalayın.",
+      "Kıymayı bir kaba alın, üzerine rendelediğiniz soğanı, ekmek içini, yumurtayı ve baharatları ekleyin.",
+      "Malzemeleri güzelce yoğurun ve ceviz büyüklüğünde parçalar koparıp şekil verin.",
+      "Köfteleri yağlı tavada her iki tarafı güzelce kızarana kadar pişirin."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/1472363341/tr/foto%C4%9Fraf/traditional-turkish-food-turkish-meatballs-turkish-name-akcaabat-kofte.jpg?s=612x612&w=0&k=20&c=ItMGpCJXgI3u3hWe5CJHMQDptTlv5NUmDYjg4o8RL0U="
+  },
+  {
+    "id": "2",
+    "name": "Cheesecake",
+    "category": "Tatlı",
+    "description": "Klasik ve yumuşacık cheesecake tarifi.",
+    "ingredients": [
+      "200g bisküvi",
+      "100g tereyağı",
+      "600g labne peyniri",
+      "200ml krema",
+      "1 su bardağı toz şeker",
+      "3 adet yumurta",
+      "1 tatlı kaşığı vanilin"
+    ],
+    "instructions": [
+      "Bisküvileri ufalayın ve erittiğiniz tereyağı ile karıştırın.",
+      "Bu karışımı kek kalıbının tabanına sıkıca bastırarak yayın.",
+      "Labne peyniri, şeker, vanilin ve kremayı mikserle çırpın.",
+      "Yumurtaları tek tek ekleyerek çırpmaya devam edin.",
+      "Karışımı bisküvi tabanının üzerine dökün ve 160°C'de 50-60 dakika pişirin.",
+      "Piştikten sonra bir süre soğumasını bekleyin ve ardından buzdolabında 3-4 saat soğutun."
+    ],
+    "imgUrl": "https://plus.unsplash.com/premium_photo-1722686461601-b2a018a4213b?q=80&w=1555&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "3",
+    "name": "Meyveli Smoothie",
+    "category": "İçecek",
+    "description": "Sağlıklı, ferahlatıcı ve vitamin dolu smoothie tarifi.",
+    "ingredients": [
+      "1 adet muz",
+      "1/2 su bardağı yaban mersini",
+      "1/2 su bardağı süt",
+      "1 yemek kaşığı bal",
+      "Birkaç buz küpü"
+    ],
+    "instructions": [
+      "Muzu soyup dilimleyin.",
+      "Yaban mersini, süt ve bal ile birlikte blender'a alın.",
+      "Buz küplerini de ekleyin ve karışımı pürüzsüz olana kadar çırpın.",
+      "Smoothie'nizi bardaklara dökün ve hemen tüketin."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/915293274/tr/foto%C4%9Fraf/serinletici-i%C3%A7ecekler.jpg?s=612x612&w=0&k=20&c=CSPJv5Jsjbz7Nga_c8eiGah6eGItqE0zo5rafusPLHs="
+  },
+  {
+    "id": "4",
+    "name": "Lazanya",
+    "category": "Ana Yemek",
+    "description": "İtalyan mutfağının vazgeçilmezi lazanya.",
+    "ingredients": [
+      "250g lasagna makarnası",
+      "400g kıyma",
+      "1 adet soğan",
+      "2 diş sarımsak",
+      "400g domates püresi",
+      "1 su bardağı beşamel sos",
+      "200g rendelenmiş kaşar peyniri",
+      "Tuz, karabiber, kekik"
+    ],
+    "instructions": [
+      "Soğanı ve sarımsağı doğrayın, zeytinyağında kavurun.",
+      "Kıymayı ekleyin ve suyunu salıp çekene kadar pişirin.",
+      "Domates püresini ve baharatları ekleyip 15 dakika pişirin.",
+      "Ayrı bir tencerede beşamel sosu hazırlayın.",
+      "Bir fırın kabına lasagna makarnalarını döşeyin, üzerine kıymalı sos, beşamel sos ve peynir ekleyin.",
+      "Katları bitene kadar devam edin, en üst kata kaşar peyniri ekleyip fırında 180°C'de 25 dakika pişirin."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/535851351/tr/foto%C4%9Fraf/lasagna-on-a-square-white-plate.jpg?s=612x612&w=0&k=20&c=iADCjC6YybMAsAU_l0RO4GaMBix_oCLsBxfBSLOelvM="
+  },
+  {
+    "id": "5",
+    "name": "Kısır",
+    "category": "Salata",
+    "description": "Lezzetli ve sağlıklı kısır tarifi.",
+    "ingredients": [
+      "2 su bardağı ince bulgur",
+      "1 adet salatalık",
+      "1 adet domates",
+      "1/2 çay bardağı zeytinyağı",
+      "1 tatlı kaşığı nar ekşisi",
+      "Tuz, pul biber, nane"
+    ],
+    "instructions": [
+      "Bulguru bir kaba alıp üzerine sıcak suyu ekleyin, karıştırın ve demlenmesini bekleyin.",
+      "Salatalık ve domatesi doğrayın.",
+      "Bulgur demlendikten sonra sebzeleri ekleyin, nar ekşisini, zeytinyağını ve baharatları ilave edin.",
+      "Karıştırın ve kısır servise hazır."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/2149435339/photo/kasede-k%C4%B1s%C4%B1r.webp?a=1&b=1&s=612x612&w=0&k=20&c=iwN89d7HJCmPrBdAbLQScqc21lWWWZV8MyLDXDK3NOw="
+  },
+  {
+    "id": "6",
+    "name": "Browni",
+    "category": "Tatlı",
+    "description": "Çikolatalı browni tarifi.",
+    "ingredients": [
+      "200g bitter çikolata",
+      "150g tereyağı",
+      "3 adet yumurta",
+      "1 su bardağı şeker",
+      "1 su bardağı un",
+      "1 tatlı kaşığı vanilin"
+    ],
+    "instructions": [
+      "Çikolatayı ve tereyağını bir kaba alıp eritin.",
+      "Yumurtaları çırpıp, şekerle karıştırın.",
+      "Çikolata karışımını ekleyin, sonra unu ve vanilini ekleyip karıştırın.",
+      "Karışımı yağlı kalıba dökün ve 180°C'de 25-30 dakika pişirin."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/2156395989/photo/fresh-baked-brownies.webp?a=1&b=1&s=612x612&w=0&k=20&c=MKbg4lqBif3w2ExOb2qvaeYyQaG6IiEjikoK9ae77cM="
+  },
+  {
+    "id": "7",
+    "name": "Çikolatalı Pasta",
+    "category": "Tatlı",
+    "description": "Kremalı ve yumuşacık pasta tarifi.",
+    "ingredients": [
+      "2 su bardağı un",
+      "1 su bardağı şeker",
+      "1 paket kabartma tozu",
+      "3 adet yumurta",
+      "1 paket kakao",
+      "1 su bardağı süt",
+      "1 paket vanilin",
+      "1 su bardağı sıvı yağ",
+      "1 paket krem şanti"
+    ],
+    "instructions": [
+      "Yumurtaları ve şekeri çırpın.",
+      "Un, kabartma tozu ve vanilini ekleyip karıştırın.",
+      "Kakoyu ekleyip iyice karıştırın.",
+      "Sıvı yağı ve sütü ilave edin, karıştırmaya devam edin.",
+      "Hamuru yağlı kalıba dökün ve 180°C'de 25-30 dakika pişirin.",
+      "Soğuyan pastanın üzerine krem şanti hazırlayıp sürün."
+    ],
+    "imgUrl": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": "8",
+    "name": "Kumpir",
+    "category": "Ara Sıcak",
+    "description": "Fırında pişirilmiş kumpir tarifi.",
+    "ingredients": [
+      "4 adet büyük patates",
+      "1 su bardağı kaşar peyniri",
+      "1/2 su bardağı mısır",
+      "1/2 su bardağı zeytinyağlı garnitür",
+      "Tuz, karabiber",
+      "İsteğe göre üzerine ketçap, mayonez, turşu ekleyin"
+    ],
+    "instructions": [
+      "Patatesleri folyo ile sarıp fırında 180°C'de 45 dakika pişirin.",
+      "Pişen patateslerin ortasını açın ve içini kaşar peyniri, mısır, garnitür ve baharatlarla doldurun.",
+      "Sıcak servis yapın."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/2150862405/photo/kumpir.webp?a=1&b=1&s=612x612&w=0&k=20&c=2vDeaneWfm9jO9OPkr_9ffEF-eWKaOPa9g9xQZeIsVs="
+  },
+  {
+    "id": "9",
+    "name": "Çikolatalı Kek",
+    "category": "Tatlı",
+    "description": "Fırında pişirilmiş çikolatalı tatlı.",
+    "ingredients": [
+      "200g bitter çikolata",
+      "3 adet yumurta",
+      "1 su bardağı şeker",
+      "Yarım su bardağı un",
+      "Yarım su bardağı tereyağı"
+    ],
+    "instructions": [
+      "Çikolatayı ve tereyağını eritin.",
+      "Şekerle çırptığınız yumurtayı ekleyin.",
+      "Unu ilave edip karıştırın ve karışımı küçük kek kalıplarına dökün.",
+      "180°C'de 25-30 dakika fırında pişirin."
+    ],
+    "imgUrl": "https://media.istockphoto.com/id/1283480290/photo/chocolate-muffins.webp?a=1&b=1&s=612x612&w=0&k=20&c=E9UwkLhI8aq-GYH20IGhTDJ1n2zPAauYE3akF_6RVAU="
+  },
+  {
+    "id": "10",
+    "name": "Pizza",
+    "category": "Ana Yemek",
+    "description": "Ev yapımı pizza tarifi.",
+    "ingredients": [
+      "2 su bardağı un",
+      "1 paket instant maya",
+      "1 su bardağı ılık su",
+      "1 tatlı kaşığı şeker",
+      "1 tatlı kaşığı tuz",
+      "1 yemek kaşığı zeytinyağı",
+      "Pizza sosu",
+      "Mozzarella peyniri, sucuk, zeytin, mantar"
+    ],
+    "instructions": [
+    "Ilık suya mayayı ve şekeri ekleyip 10 dakika bekletin.",
+    "Unu, tuzu ve zeytinyağını ekleyerek hamuru yoğurun.",
+    "Üzerini örtüp 1 saat mayalanmaya bırakın.",
+    "Hamuru açın, sosu sürün ve malzemeleri yerleştirin.",
+    "Önceden ısıtılmış 200°C fırında 20 dakika pişirin."
+  ],
+    "imgUrl": "https://media.istockphoto.com/id/184946701/tr/foto%C4%9Fraf/pizza.jpg?s=612x612&w=0&k=20&c=zCqc1tYcAlm-t6bHfD3l-V9s9P3mUXyQt4IZ4t4WNms="
+}
+]

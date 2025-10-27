@@ -1,0 +1,228 @@
+/* .tarif-detay-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.tarif-detay-header img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarif-detay-title {
+    margin: 20px 0;
+    color: #6a0dad;
+}
+
+.tarif-detay-content {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.tarif-detay-footer {
+    margin-top: 20px;
+}
+
+.back-button {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #5a0c8e;
+} */
+
+
+/* Tarif Detay Sayfası Ana Konteyner */
+.tarif-detay-container {
+  padding: 30px;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
+  background-color: #c17bdd; /* Arka planı biraz daha açık yapalım */
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarif Başlığı */
+.tarif-detay-title {
+  margin: 20px 0;
+  color: #250538;  /* Tatlı mor tonunda */
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Resim */
+.tarif-detay-header img {
+  width: 80%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease; /* Hover efekti eklemek için */
+}
+
+.tarif-detay-header img:hover {
+  transform: scale(1.05); /* Resmin üzerine gelince büyüme efekti */
+}
+
+/* Tarif İçeriği */
+.tarif-detay-content {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.1rem;
+  color: #3a3838;
+}
+
+.tarif-detay-content h2 {
+  font-size: 1.5rem;
+  color: #6a0dad;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ingredients,
+.instructions {
+  margin-left: 20px;
+  line-height: 1.8;
+  list-style-type: disc;
+}
+
+.ingredients li,
+.instructions li {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Geri Dön Butonu */
+.back-button {
+  background-color: #6a0dad;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #5a0c8e;
+  transform: scale(1.05); /* Hover efekti */
+}
+
+
+
+.comment-section {
+  margin-top: 40px;
+  color: #f0e9ff;
+}
+
+.comments-and-form {
+  display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 900px;
+    /* Eski halinden daha dar */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #160335;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Yorum yapma formu (sol tarafta) */
+.comment-form {
+  width: 350px;
+  /* Daha küçük genişlik */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #3c2c6f;
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 90%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4a3a8c;
+  /* biraz daha belirgin */
+  color: #f0e9ff;
+  font-size: 1rem;
+  resize: none;
+}
+
+.comment-form input::placeholder,
+.comment-form textarea::placeholder {
+  color: #b0a3d9;
+}
+
+.comment-form textarea {
+  height: 100px;
+}
+
+.comment-form button {
+  background-color: #8a66c9;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+  background-color: #ab8ae0;
+}
+
+/* Yorumlar listesi (sağ tarafta) */
+.comments-list {
+  flex: 1;
+  max-height: 300px;
+  overflow-y: auto;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  background-color: #3e2a75;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Her yorum satırı: isim ve yorum yan yana, sol hizalı ve dikey ortalı */
+.comments-list li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #5c49a2;
+  padding-bottom: 8px;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+/* İsim kısmı kalın ve soldan tam başlıyor */
+.comments-list li strong {
+  min-width: 80px;
+  font-weight: 700;
+  color: #cdb4ff;
+  text-align: left;
+  flex-shrink: 0;
+}

@@ -1,0 +1,119 @@
+/* Genel navbar yapısı */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    background-color: #e7b9e3;
+    color: #270447;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Sol kısımdaki marka/logosu */
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #5c0755;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+    color: #3c0975;
+}
+
+/* Sağ kısım (kullanıcı veya auth linkleri) */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Favorilerim linki */
+.navbar-favorites-link {
+    display: flex;
+    align-items: center;
+    color: #e91e63;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: #fce4ec;
+    box-shadow: 0 2px 8px rgba(233, 30, 99, 0.3);
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.navbar-favorites-link:hover {
+    background: #f8bbd0;
+    transform: scale(1.1);
+    color: #880e4f;
+}
+
+.heart-icon {
+    margin-right: 6px;
+    color: crimson;
+}
+
+/* Kullanıcı bilgisi ve çıkış */
+.user-info {
+    display: flex;
+    align-items: center;
+    background-color: #fce4ec;
+    padding: 6px 12px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(94, 5, 89, 0.15);
+}
+
+.user-info span {
+    margin-right: 0.8rem;
+    font-weight: bold;
+    color: #5c0755;
+}
+
+/* Ortak buton stilleri */
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Giriş */
+.login-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Kayıt */
+.register-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: #ae27a3;
+    transform: scale(1.05);
+}
+
+/* Çıkış */
+.logout-btn {
+    background-color: #70170d;
+    color: white;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
