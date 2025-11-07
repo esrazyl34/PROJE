@@ -1,17 +1,3 @@
-//src/backend/models/recipeModels.js
-// const mongoose = require('mongoose');
-
-// const recipeSchema = new mongoose.Schema({
-//   name: { type: String, required: true, trim: true },
-//   category: { type: String, required: true },
-//   ingredients: { type: [String], required: true },
-//   instructions: { type: [String], required: true },
-//   imgUrl: { type: String, required: true }
-// }, { timestamps: true });
-
-// module.exports = mongoose.model('Recipe', recipeSchema);
-
-
 const mongoose = require('mongoose');
 
 // Yorumlar için alt şema
